@@ -23,7 +23,7 @@ int main() {
 }
 
 void elementAndAddress(const int nums[], const int size) {
-	for (int i = 0; i < size; i++) {
+	for (auto i = 0; i < size; i++) {
 		std::cout << "VAL:" << nums[i] << "ADR:" << &nums[i] << std::endl;
 	}
 }
